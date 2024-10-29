@@ -1,0 +1,25 @@
+{
+  "name": "task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.30.0",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.12.2"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.5.12",
+    "vue": "^3.5.12",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "eslintConfig": {  "extends": "@vue/cli-plugin-eslint"
+  }
+}
